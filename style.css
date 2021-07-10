@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+  }
+  
+  div {
+    padding: 2em;
+    background: white;
+  }
+  
+  .ref {
+    background: aquamarine;
+  }
+  
+  .container {
+    display: flex;
+    background: purple;
+  /*   background-color: purple;
+    background-image: url(https://css-tricks.com/wp-content/uploads/2018/10/flex-wrap.svg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    flex-direction: row-reverse;
+  }
+  
+  .block {
+    width: 50%;
+  }
